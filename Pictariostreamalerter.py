@@ -10,7 +10,7 @@ CHANNEL_NAME = "floofnfluff"
 CHECK_INTERVAL_SECONDS = 60
 
 # Discord webhook used for live/offline alerts.
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1485810723320758311/B9rYBD8GRymK0obvrQDA3btY8JPI2ftjhvSllJXRqUEMbCUaL9vPrE2MnywjzYFZVGQx"
+DISCORD_WEBHOOK_URL = os.environ["DISCORD_WEBHOOK_URL"]
 
 
 def utc_now():
